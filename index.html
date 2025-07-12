@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <header>
+            <nav>
+
+                <span>Portfolio</span>
+
+                <div class="nav-container">
+                    <a href="#Home">Home</a>
+                    <a href="#About-me">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <div class="hamburger">&#9776;</div>
+            </nav>
+        </header>
+
+        <main id="Home">
+            <span>“Building responsive websites with passion and precision.”</span>
+            <h1>Sean Carlo Diaz</h1>
+
+            <div class="btn-container">
+                <a href="#">Contact me</a>
+                <a href="CV.pdf" download>Download CV</a>
+            </div>
+        </main>
+
+
+        <!-- About me page-->
+
+    <div class="About-me" id="About-me">
+            <h2>Who am I?</h2>
+            <div class="about-me-container">
+                <div class="profile-container">
+                    <img src="Formal-Pic.jpg" alt="profile picture">
+                </div>
+
+                <div class="about-text">
+                    <p>I’m Sean Diaz, an aspiring front-end developer based in the Philippines.
+                    I specialize in creating responsive and user-focused websites using HTML, CSS, and a growing passion for JavaScript.
+                    Currently, I’m focused on building my portfolio and mastering front-end fundamentals, one line of code at a time.</p>
+
+                </div>
+            </div>
+
+            <div class="what-i-can-do-container" id="what-i-can-do">
+                <div class="title-container">
+                    <h2>What I Can Do?</h2>
+                </div>
+
+                <div class="section-container">
+                    <section class="front-end-card">
+                        <span>Front-End Development</span>
+                        <p>I can build structured and responsive websites using HTML and CSS.
+                        From layout to styling, I bring designs to life.</p>
+                        <button>Build with me</button>
+                    </section>
+
+                    <section class="Java-App-card">
+                        <span>Java Application</span>
+                        <p>I can create basic systems using Java, like POS, login/signup features, and simple databases. I enjoy turning real-world ideas into working applications.</p>
+                        <button>Build with me</button>
+                    </section>
+
+                    <section class="Responsive-card">
+                        <span>Responsive Design</span>
+                        <p>Using Flexbox and media queries, I make sure websites look clean on all screen sizes — phones, tablets, or desktops.</p>
+                        <button>Build with me</button>
+                    </section>
+
+                    <section class="Responsive-card">
+                        <span>UI Layout & Design</span>
+                        <p>I enjoy experimenting with layouts, structure, and color combinations to improve user experience and accessibility.</p>
+                        <button>Build with me</button>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- This part is for project na-->
+
+      <section class="project-container" id="projects">
+            <div class="title-container-projects">
+                <h2>My projects</h2>
+            </div>
+
+            <div class="cards-container">
+                <div class="project-cards">
+                    <img src="DIgital-Menu-SS.jpg" alt="POS">
+                    <span>Digital menu system</span>
+                    <p>A simple POS system built with Java Swing. It includes login/signup, product selection, order tracking, and receipt generation.</p>
+                    <div class="btn-group">
+                        <a href="#">View project</a>
+                    </div>
+                </div>
+
+                <div class="project-cards">
+                    <img src="Student-Management-SS.jpg" alt="CRUD SYSTEM">
+                    <span>Student Management System</span>
+                    <p>A simple CRUD-based student management system using HTML, CSS, PHP, and MySQL to manage student records efficiently.</p>
+                    <div class="btn-group">
+                        <a href="https://github.com/sxarlo/CRUD-SYSTEM">View project</a>
+                    </div>
+                </div>
+                
+                <div class="project-cards">
+
+                </div>
+            </div>
+        </section>
+
+
+        <!--This is for contact page-->
+
+
+        <section class="contact-main-container" id="contact">
+
+            <h2>Contact me!</h2>
+
+            <div class="contact-form">
+
+                <form action="">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+
+                    <label  for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Email Address">
+                    
+                    <label for="subject">Subject:</label>
+                    <textarea name="subject" id="subject" placeholder="Subject" cols="5" rows="10"></textarea>
+
+                    <div class="btn-contact">
+                        <a href="#">Submit</a>
+                    </div>
+                </form>
+
+            </div>
+        </section>
+
+    </body>
+</html>
